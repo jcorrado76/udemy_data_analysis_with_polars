@@ -1,0 +1,12 @@
+name: udemy_polars_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - polars
+  - pandas
+  - jupyter
+  - matplotlib
+  - pyarrow
+  - plotly
+prefix: /Users/josephcorrado/opt/anaconda3/envs/udemy_polars_env
