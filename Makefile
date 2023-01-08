@@ -9,3 +9,6 @@ conda_env_yml:
 
 conda_env:
 	conda env create -n ${CONDA_ENV_NAME} -f ${CONDA_YML_FILE}
+
+jupyter_kernel:
+	python -m ipykernel install --user --name ${CONDA_ENV_NAME} --display-name "Udemy Polars Env"
